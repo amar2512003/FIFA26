@@ -1,0 +1,57 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Model weights (large binary files) ---
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.weights
+yolov8x.pt
+yolov8*.pt
+
+# --- Roboflow downloaded datasets ---
+training/*.zip
+training/*.v*/
+training/dataset/
+*.yaml
+!*/data.yaml
+
+# --- Input / Output videos (large media files) ---
+input_videos/*
+output_videos/*
+!input_videos/.gitkeep
+!output_videos/.gitkeep
+
+# --- Cached tracking / analysis stubs ---
+stubs/*.pkl
+stubs/*
+
+# --- Jupyter notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- OS / Editor junk ---
+.DS_Store
+.vscode/
+*.swp
+
+# --- Environment variables / secrets ---
+.env
+*.env
+
+# --- Ultralytics run artifacts ---
+runs/
+*.log
