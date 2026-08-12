@@ -163,10 +163,7 @@ source venv/bin/activate      # Windows: venv\Scripts\activate
 ```bash
 pip install ultralytics supervision opencv-python numpy scikit-learn roboflow
 ```
-*(or, if a `requirements.txt` is present:)*
-```bash
-pip install -r requirements.txt
-```
+
 
 ### 3. Get the model weights and sample videos
 Since `models/best.pt` and sample input/output videos are too large for GitHub, download them from Google Drive:
